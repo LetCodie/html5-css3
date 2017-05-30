@@ -1,0 +1,9 @@
+<!DOCTYPE html> -> text insensitive
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset-"UTF-8"> for modern browser
+    http-equiv : use as HTTP response header
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8"> for old browser
+  </head>
+  <body></body>
+</html>
