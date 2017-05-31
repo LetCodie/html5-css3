@@ -44,3 +44,20 @@ media attribute
     optional attributes : title, type, media, hreflang, sizes
 
 https://github.com/afarkas/html5shiv
+
+Shorthand for font
+  body {
+    font: 14px/1.5 "Trebuchet MT", sans, Arial;
+  }
+
+  -- font-style, font-variant, font-weight, font-size/line-height, font-family;
+  h5 {
+    font: small-caps italic bold 100% Arial, sans-serif;
+  }
+
+shorthand for background
+
+.intro {
+  background: #fff url(image.png) 94% 20px no-repeat;
+}
+
