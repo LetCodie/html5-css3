@@ -32,5 +32,56 @@ The var element designates a programming variable or argument, or a variable in 
 <p><var>Something</var>-Man, <var>Something</var>-Man, does whatever a <var>something</var> can.</p>
 
   <animal>cat</animal>
+
+  <textarea name="my-text" cols="25" rows="5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea>
+
+  <input type="text" name="myInput1" list="myLists">
+
+  <datalist id="myLists">
+    <option value="apple">
+    <option value="book">
+    <option value="car">
+  </datalist>
+
+  <form oninput="sum.value = parseInt(a.value) + parseInt(b.value)">
+    <input type="number" name="a"> + 
+    <input type="number" name="b"> =
+
+    <output name="sum">
+  </form>
+
+  <meter min="0" max="5" value="3" low="4"></meter>
+  <meter value="0.75">rating us</meter>
+  <progress max="7" value="5">5%</progress>
+
+  <div>
+    <p>name: iPhone7</p>
+    <p>price: 800$</p>
+    <details>
+      <summary>more info</summary>
+      <dl>
+        <dt>color</dt>
+        <dd>white</dd>
+
+        <dt>ram</dt>
+        <dd>4GB</dd>
+
+        <dt>camera</dt>
+        <dd>12Megapixels</dd>
+      </dl>
+    </details>
+  </div>
+
+  <menu type="context" id="color" label="Change color" style="background-color:blue;width:200px;height:200px;">
+    <command type="radio" radiogroup="colors" label="black" onclick="chColor('black')">
+    <command type="radio" radiogroup="colors" label="red" onclick="chColor('red')">
+    <command type="radio" radiogroup="colors" label="blue" onclick="chColor('blue')">
+    <command type="radio" radiogroup="colors" label="green" onclick="chColor('green')">
+  </menu>
   </body>
 </html>
